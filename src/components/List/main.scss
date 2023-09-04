@@ -1,0 +1,21 @@
+.all {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 10%;
+
+        &__table {
+            
+            margin-top: 30px;
+            padding: 10px;
+            text-align: justify;
+            border: outset 4px black;
+            font-size: 20px;
+        }
+
+        table tbody {
+            padding-right: 20px;
+        }
+
+}
